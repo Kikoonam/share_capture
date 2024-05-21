@@ -5,8 +5,6 @@ import useGetSuggestedUsers from "../../hooks/useGetSuggestedUsers";
 
 const SuggestedUsers = () => {
 	const { isLoading, suggestedUsers } = useGetSuggestedUsers();
-
-	// optional: render loading skeleton
 	if (isLoading) return null;
 
 	return (

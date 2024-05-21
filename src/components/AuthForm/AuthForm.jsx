@@ -11,7 +11,7 @@ const AuthForm = () => {
 		<>
 			<Box border={"1px solid gray"} borderRadius={4} padding={5}>
 				<VStack spacing={4}>
-					<div h={24}>Share & Capture </div>
+					<div h={24}>Shareworld </div>
 
 					{isLogin ? <Login /> : <Signup />}
 
